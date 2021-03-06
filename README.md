@@ -21,11 +21,11 @@ A list of commonly used resources that I find helpful are listed in the Resource
 
 ### Prerequisites
 
-Google Cloud Project
+**Google Cloud Project**
 
 You require the name of the project only.  Any required APIs will be enabled during your first Terraform run.
 
-VPC
+**VPC**
 
 You will need to create a VPC network with a subnet and two secondary IP ranges based on how many clusters you would like to build (reading this now makes me realize I should include Terraform modules for this as well)
 
