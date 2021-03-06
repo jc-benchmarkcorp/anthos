@@ -19,7 +19,7 @@ Terraform Benefits:
 
 A list of commonly used resources that I find helpful are listed in the Resources.
 
-### Pre-Requisite
+### Prerequisites
 
 Google Cloud Project
 
