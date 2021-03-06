@@ -86,18 +86,18 @@ hub.tf
 
 #### Anthos Service Mesh (ASM)
 
-Installs Anthos Service Mesh (ASM)
+Installs Anthos Service Mesh (ASM)  
 asm.tf
 
 #### Anthos Config Management (ACM)
 
-Enables Anthos Config Management (ACM)
+Enables Anthos Config Management (ACM)  
 acm.tf
 
 #### Beyond the setup
 
-Application Deployment
-Playing with Config Management
+Application Deployment  
+Playing with Config Management  
 Playing with Service Mesh
 
 <!-- GETTING STARTED -->
