@@ -37,10 +37,10 @@ File Descriptions
 variables.tf  
 terraform.tfvars  
 main.tf  
+apis.tf  
 hub.tf  
 clusters.tf  
 asm.tf  
-apis.tf  
 acm.tf  
 ```
 What you need to supply (build this into a chart so you have a description field)
