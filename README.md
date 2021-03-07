@@ -7,7 +7,7 @@
 Get up and running with Anthos leveraging Terraform Modules.  All you need is a project (with a network).
 
 Anthos Benefits:
-* Kubernetes Everywhere (under your control)
+* Kubernetes Everywhere (and under your control)
 * Container Management - GKE/k8s
 * Config Management - ACM
 * Service Management - ASM
@@ -120,6 +120,8 @@ dual/           # Dual Cluster Build
 
 <!-- Resource LINKS  -->
 ## Resources
+
+[Anthos](https://cloud.google.com/anthos)
 
 [Anthos Service Mesh Documentation](https://cloud.google.com/service-mesh/docs)
 [Terraform Kubernetes Engine ASM Submodule](https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest/submodules/asm)
