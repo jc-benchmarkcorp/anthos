@@ -100,15 +100,6 @@ Application Deployment
 Playing with Config Management  
 Playing with Service Mesh
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-
-### Prerequisites
-
-
-
 <!-- Repo Strcuture -->
 ## Repo Structure
 ```
