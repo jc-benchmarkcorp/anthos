@@ -6,6 +6,15 @@
 ## About The Project
 Get up and running with Anthos leveraging Terraform Modules.  All you need is a project (with a network).
 
+What you are creating:
+
+Single - One GKE public cluster, Cluster Registration, ASM installation, ACM installation, 
+Dual - Two GKE public clusters, Cluster Registration, ASM installation, ACM installation
+
+Next iteration:
+
+Dual Private Cluster setup, with a bastion host (More along the lines of real world setup)
+
 Anthos Benefits:
 * Kubernetes Everywhere (and under your control)
 * Container Management - GKE/k8s
@@ -27,7 +36,7 @@ You require the name of the project only.  Any required APIs will be enabled dur
 
 **VPC**
 
-You will need to create a VPC network with a subnet and two secondary IP ranges based on how many clusters you would like to build (reading this now makes me realize I should include Terraform modules for this as well)
+You will need to create a VPC network with a subnet and two secondary IP ranges based on how many clusters you would like to build
 
 # What to do once you clone
 
@@ -76,12 +85,12 @@ Initializes the state and enables the required APIs.
 
 #### Building your cluster(s)
 
-Sets up your GKE cluster(s) in your project.  
+Sets up your GKE cluster(s) in your project. 
 clusters.tf
 
 #### Registering your clusters to an Anthos environ
 
-Cluster registration
+Cluster registration. 
 hub.tf
 
 #### Anthos Service Mesh (ASM)
@@ -120,5 +129,6 @@ dual/           # Dual Cluster Build
 [Anthos Config Management Documentation](https://cloud.google.com/anthos-config-management/docs)
 [Terraform Kubernetes Engine ACM Submodule](https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest/submodules/acm)
 
-Document any gotchas.  Review periodically and remove as they become resolved  
+Build documented gotchas into the instructions for the next iteration.
 Go back and run from a vanilla machine to ensure nothing has been overlooked or assumed.
+Review perodically for improvements.
