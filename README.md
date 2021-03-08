@@ -75,12 +75,12 @@ Walking through the deployment
 
 
 Clone  
-Fill out terraform.tfvars
+Fill out terraform.tfvars  
 You start with (variables.tf, terraform.tfvars, main.tf and apis.tf)  
 terraform init  
 Initializes your provider, downloads module and builds your state.  
-terraform plan
-terraform apply
+terraform plan  
+terraform apply  (-auto-approve if you want to skip the 'yes' prompt)
 
 Initializes the state and enables the required APIs.
 
