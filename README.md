@@ -8,7 +8,7 @@ Get up and running with Anthos leveraging Terraform Modules.  All you need is a 
 
 What you are creating:
 
-Single - One GKE public cluster, Cluster Registration, ASM installation, ACM installation, 
+Single - One GKE public cluster, Cluster Registration, ASM installation, ACM installation
 Dual - Two GKE public clusters, Cluster Registration, ASM installation, ACM installation
 
 Next iteration:
