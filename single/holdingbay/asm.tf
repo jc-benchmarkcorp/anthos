@@ -4,5 +4,7 @@ module "asm-primary" {
   cluster_name     = module.primary-cluster.name
   location         = module.primary-cluster.location
   cluster_endpoint = module.primary-cluster.endpoint
-  asm_dir          = "asm-dir-${module.primary-cluster.name}"
+  asm_dir = "asm-dir-${module.primary-cluster.name}"
+  asm_version = "1.9"
+  gcloud_sdk_version = "330.0.0"
 }

@@ -1,14 +1,4 @@
 # Primary Cluster
-
-data "google_client_config" "default" {}
-
-provider "kubernetes" {
-  load_config_file       = false
-  host                   = "https://${module.primary-cluster.endpoint}"
-  token                  = data.google_client_config.default.access_token
-  cluster_ca_certificate = base64decode(module.primary-cluster.ca_certificate)
-}
-
 module "primary-cluster" {
   name                    = "primary"
   project_id              = module.project-services.project_id
@@ -21,7 +11,6 @@ module "primary-cluster" {
   ip_range_services       = "gke-services-1"
   zones                   = var.primary_zones
   release_channel         = "REGULAR"
-  cloudrun                = true
   cluster_resource_labels = { "mesh_id" : "proj-${data.google_project.project.number}" }
   node_pools = [
     {

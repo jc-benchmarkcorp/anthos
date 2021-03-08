@@ -4,7 +4,8 @@ module "acm-primary" {
   cluster_name     = module.primary-cluster.name
   location         = module.primary-cluster.location
   cluster_endpoint = module.primary-cluster.endpoint
-  operator_path    = "config-management-operator.yaml"
+  create_ssh_key   = false
+  secret_type      = "none"
   sync_repo        = var.acm_repo_location
   sync_branch      = var.acm_branch
   policy_dir       = var.acm_dir
