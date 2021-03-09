@@ -75,14 +75,23 @@ Walking through the deployment
 
 
 Clone  
+cd to the **single** or **dual** folder
 Fill out terraform.tfvars  
 You start with (variables.tf, terraform.tfvars, main.tf and apis.tf)  
 terraform init  
-Initializes your provider, downloads module and builds your state.  
+Initializes your provider, downloads module and builds your state.
 terraform plan  
 terraform apply  (-auto-approve if you want to skip the 'yes' prompt)
 
 Initializes the state and enables the required APIs.
+
+After completion, copy each of the files (in order) out of **holdingbay** into your **single** or **dual** folder.
+
+After each copy repeat the terraform steps:
+
+terraform init
+terraform plan
+terraform apply  (-auto-approve if you want to skip the 'yes' prompt)
 
 #### Building your cluster(s)
 
@@ -106,9 +115,9 @@ acm.tf
 
 #### Beyond the setup
 
-Application Deployment  
-Playing with Config Management (Config Sync and Policy Controller)  
-Playing with Service Mesh
+Application Deployment (Online Boutique or Bank of Anthos)   
+Working with Config Management (Config Sync and Policy Controller)  
+Working with Service Mesh
 
 <!-- Repo Strcuture -->
 ## Repo Structure
