@@ -57,8 +57,8 @@ What you need to supply (build this into a chart so you have a description field
 ```
 primary_region      = ""  
 primary_zones      = [""]  
-secondary_region      = ""  
-secondary_zones      = [""]  
+secondary_region      = "" (not in single)
+secondary_zones      = [""] (not in single)
 project_id          = ""  
 acm_repo_location   = ""  
 acm_branch          = ""  
