@@ -107,7 +107,7 @@ acm.tf
 #### Beyond the setup
 
 Application Deployment  
-Playing with Config Management (Config Sync and Policy Controller)
+Playing with Config Management (Config Sync and Policy Controller)  
 Playing with Service Mesh
 
 <!-- Repo Strcuture -->
