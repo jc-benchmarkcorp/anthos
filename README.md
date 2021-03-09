@@ -55,14 +55,14 @@ acm.tf
 ```
 What you need to supply (build this into a chart so you have a description field)
 ```
-primary_region      = ""
-primary_zones      = [""]
-secondary_region      = ""
-secondary_zones      = [""]
-project_id          = ""
-acm_repo_location   = ""
-acm_branch          = ""
-acm_dir             = ""
+primary_region      = ""  
+primary_zones      = [""]  
+secondary_region      = ""  
+secondary_zones      = [""]  
+project_id          = ""  
+acm_repo_location   = ""  
+acm_branch          = ""  
+acm_dir             = ""  
 
 ```
 Walking through the deployment
